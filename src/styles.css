@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* WebKit Scrollbar */
+::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+    
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #624DE3; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #717174; /* Color of the handle on hover */
+}
