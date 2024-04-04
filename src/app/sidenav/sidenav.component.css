@@ -2,8 +2,10 @@
     width: fit-content;
     padding: 5px 23px;
     height: 100vh;
-    box-shadow: rgba(169, 169, 169, 0.441)  1px 3px 19px 2px;
+    /* box-shadow: rgba(169, 169, 169, 0.441)  1px 3px 19px 2px; */
     color: #5D7285;
+    position: relative;
+    /* z-index: 999; */
 }
 
 
@@ -24,7 +26,7 @@
     position: relative;
     justify-content: end;
     align-items: flex-start;
-    height: 34rem;
+    height: 36rem;
     margin-top: 1rem;
     gap: 14px;
     cursor: pointer;
@@ -36,7 +38,7 @@
     position: relative;
     justify-content: end;
     align-items: flex-start;
-    height: 34rem;
+    height: 36rem;
     margin-top: 1rem;
     gap: 14px;
     cursor: pointer;
@@ -44,7 +46,7 @@
 
 .entry{
     display: flex;
-    margin: 10px;
+    margin: 8px;
     align-items: center;
     font-size: 13px;
     gap: 1rem;
@@ -83,13 +85,13 @@ ul  {
 .sideView {
     position: absolute;
     right: -7.5rem;
-    bottom: 1rem;
+    bottom: 4rem;
     background: white;
     padding: 1rem;
     list-style: none;
     z-index: 33;
     transition: none;
-    box-shadow: rgba(169, 169, 169, 0.441)  1px 3px 10px 2px;
+    box-shadow: rgba(169, 169, 169, 0.441)  1px 3px 10px 2px;    
 }
 ul li{
     padding: 5px 0;
@@ -106,7 +108,7 @@ li:hover{
     font-weight: 700;
     gap: 1rem;
     position: relative;
-    top: 7rem;
+    top: 4rem;
     background-color: #624DE3;
     border-radius: 6px;
     padding: 2px;

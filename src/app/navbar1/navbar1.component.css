@@ -1,0 +1,20 @@
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px#624DE3;
+    padding: 0.3rem 2rem;
+    flex-wrap: wrap-reverse;
+}
+
+.profile{
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: baseline;
+    padding: 0px 12px
+}
+
+.profile i {  
+    background: rgba(186, 186, 186, 0.87);
+    padding: 10px;
+    border-radius: 50%
+}

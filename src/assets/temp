@@ -41,3 +41,85 @@
 //    <router-outlet></router-outlet>
 // </mat-sidenav-content>
 // </mat-sidenav-container> 
+
+
+// <span class="entry" routerLink="/Dashboard"  (click)="sendDataToNavbar({ label: 'Dashboard' })">
+// <i class="fa-solid fa-house"></i>
+// <p class=" text mt-3" routerLink="/Dashboard"  [ngClass]="{'textDisplay' : isMobile}">DashBorad</p>
+// </span>
+// <span class="entry" (click)="sendDataToNavbar({ label: 'Posts' })">
+// <i class="fa-solid fa-square-pen"></i>
+// <p class=" text mt-2" routerLink="/Posts"  [ngClass]="{'textDisplay' : isMobile}" >Posts</p>
+// </span>
+// <span class="entry" (click)="sendDataToNavbar({ label: 'Media' })">
+// <i class="fa-solid fa-image"></i>
+// <p class=" text mt-2"  routerLink="/Media" [ngClass]="{'textDisplay' : isMobile}" >Media</p>
+// </span>
+// <span class="entry">
+// <i class="fa-regular fa-file-lines"></i>
+// <p class=" text mt-2"  [ngClass]="{'textDisplay' : isMobile}" >Pages</p>
+// </span>
+// <span class="entry">
+// <i class="fa-regular fa-comment-dots"></i> 
+// <p class=" text mt-2"  [ngClass]="{'textDisplay' : isMobile}" >Comments</p>
+// </span>
+// <span class="entry">
+// <i class="fa-solid fa-border-all"></i>
+// <p class=" text mt-2"  [ngClass]="{'textDisplay' : isMobile}" >Appearance</p>
+// </span>
+// <span class="entry">
+// <i class="fa-solid fa-bag-shopping"></i>
+// <p class=" text mt-2"  [ngClass]="{'textDisplay' : isMobile}" >Plugins</p>
+// </span>
+// <span class="entry my-0" (click)="display()" >
+// <i class="fa-solid fa-users" ></i>
+// <p class=" text mt-2"  [ngClass]="{'textDisplay' : isMobile}"  >Users    </p>
+// <i class="fa-solid fa-chevron-down text" [ngClass]="{'textDisplay' : isMobile}" style="margin: 0;
+// font-size: 15px;
+// padding-left: 35px;"></i>
+// </span>
+// <ul [ngClass]="{'hide' : isdisplay,'sideView':isMobile}" >
+// <li>User no. 1 </li>
+// <li>User no. 2</li>
+// <li>User no. 3</li>
+// <li>User no. 4</li>
+// </ul>
+// <span class="entry">
+// <i class="fa-solid fa-gear"></i>
+// <p class=" text mt-2"  [ngClass]="{'textDisplay' : isMobile}" >Settings</p>
+// </span>
+
+
+// <span class="entry">
+// <i class="fa-solid fa-sliders"></i>
+// <p class=" text mt-2"  [ngClass]="{'textDisplay' : isMobile}" >Tools</p>
+// </span>
+
+// <div  [ngClass]="{'list2' : isMobile , 'list':islist}" >
+
+// <ng-container  *ngFor="let item of menuItems" >
+//    <span class="entry" routerLink={{item.label}}  (click)="sendDataToNavbar({ label: item.label})">
+//       <i class= {{item.iconClass}} ></i>
+//       <p class=" text mt-3" routerLink={{item.label}}  [ngClass]="{'textDisplay' : isMobile}">{{item.label}}</p>
+  
+//          <i class={{item.iconClass2}} (click)="display()" [ngClass]="{'textDisplay' : isMobile}" style="margin: 0;
+//          font-size: 15px;
+//          padding-left: 32px;"></i>
+          
+    
+//       </span>
+//         <ul *ngIf="item.iconClass2" [ngClass]="{'hide' : isdisplay,'sideView':isMobile}" >
+//             <li>User no. 1 </li>
+//             <li>User no. 2</li>
+//             <li>User no. 3</li>
+//             <li>User no. 4</li>
+//             </ul>
+// </ng-container>
+//      <!-- <ul *ngIf="item.iconClass2" [ngClass]="{'hide' : isdisplay,'sideView':isMobile}" >
+//             <li>User no. 1 </li>
+//             <li>User no. 2</li>
+//             <li>User no. 3</li>
+//             <li>User no. 4</li>
+//             </ul> -->
+   
+// </div>

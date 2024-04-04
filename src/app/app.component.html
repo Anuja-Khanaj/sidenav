@@ -1,2 +1,12 @@
-<app-sidenav></app-sidenav>
-<router-outlet></router-outlet>
+<div class="d-flex" >
+        <app-sidenav style="border-right: solid rgba(186, 186, 186, 0.842) 1px;" ></app-sidenav>
+   
+    <div class="col">
+        <div class="row ">
+        <app-navbar1></app-navbar1>
+        </div>
+        <div class="row">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
